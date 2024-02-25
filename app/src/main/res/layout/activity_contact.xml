@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#070048"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/textView"
+          android:layout_width="wrap_content"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:layout_height="match_parent"
+          android:textSize="30dp"
+          android:textStyle="bold"
+          android:textColor="@color/white"
+          android:text="About Us" />
+
+      <ImageView
+          android:id="@+id/imageView5"
+          android:layout_width="100dp"
+          android:layout_height="70dp"
+          android:layout_margin="10dp"
+          app:srcCompat="@drawable/leftarrow" />
+  </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="     Our Developers " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="     Yukta Govind\n         (SYCO-B)" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Zeal Polytechnic,\n      PUNE" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnyukta"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:backgroundTint="#870B0B"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="contact" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="    Pranav Khade\n         (SYCO-B)" />
+
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Zeal Polytechnic,\n      PUNE" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnpranav"
+        android:layout_width="200dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:backgroundTint="#870B0B"
+        android:layout_height="wrap_content"
+        android:text="contact" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="     Sejal Khalse\n         (SYCO-B)" />
+
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Zeal Polytechnic,\n      PUNE" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnsejal"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#870B0B"
+        android:layout_height="wrap_content"
+        android:text="contact" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="     Sarthak Zore\n         (SYCO-B)" />
+
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Zeal Polytechnic,\n      PUNE" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnsarthak"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:backgroundTint="#870B0B"
+        android:layout_height="wrap_content"
+        android:text="contact" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
