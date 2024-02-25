@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#040053"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:shadowColor="#FFFFFF"
+        android:text="Login"
+        android:textColor="#FBFAFA"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+android:textColorHint="@color/white"
+        android:hint="Enter Email Id*"
+        android:inputType="textEmailAddress"
+        android:textColor="#F6F1F1"
+        android:textColorHighlight="#FFFCFC"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Password*"
+
+        android:inputType="textPassword"
+        android:textColor="#FBF8F8"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="291dp"
+        android:backgroundTint="#AD2196F3"
+        android:text="Login"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cntact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="70dp"
+        android:text="contact" />
+
+
+</RelativeLayout>
